@@ -1,0 +1,278 @@
+.s3audible {
+	margin-bottom:15px;
+}
+.jp-type-playlist {
+	background-color:#222;
+	color:#CCC
+}
+.jp-playlist a, .jp-playlist p, .jp-playlist h3, .jp-playlist ul, .jp-playlist li, .jp-title {
+	color: #999 !important;
+	background:none !important;
+}
+.jp-gui {
+	height:80px;
+	width:100%;
+	float:left;
+}
+.jp-interface {
+	background:url(http://soaudible.com/wp-content/themes/responsive/images/bgplayer.png) repeat;
+	width:100%;
+	position:relative;
+	float:left;
+}  
+.jp-no-solution {
+	position:absolute;
+	text-align:center;
+	width:100%
+}
+.s3loadercenter {
+	position:absolute!important;
+	display:block;
+	color: #D3A20F !important;
+	top:53px!important;
+	text-align:center!important;
+	width:100%!important;
+	font-size:9px!important
+}
+.s3loadercenter img{
+	border:none !important;
+}
+.s3desccenter a {
+	font-size:9px!important;
+	color: #D3A20F !important;
+}
+.s3desccenter {
+text-align: center;
+position: absolute;
+top: 52px;
+font-size: 10px;
+left: 50%;
+width: 104px;
+margin-left: -52px;
+}
+.jp-progress {
+background-color: 
+#999 !important;
+width: 100%;
+height: 10px;
+overflow: hidden;
+z-index: 9999;
+float: left;
+margin: 0px !important;
+text-align: center;
+padding: 0px !important;
+}
+div.jp-video .jp-progress {
+	border-top:1px solid #180a1f;
+	border-bottom:1px solid #554560;
+	width:100%;
+	background-image:none;
+	padding:0
+}
+.jp-seek-bar {
+	width:0;
+	height:100%;
+	overflow:hidden;
+	cursor:pointer;
+	background-color:#ccc !important;
+}
+.jp-play-bar {
+width: 0;
+height: 100%;
+overflow: hidden;
+background: 
+white;
+} 
+
+.jp-current-time {
+color:#999 !important;
+float:left;
+font-size: 11px;
+z-index: 9999;
+margin-left: 10px;
+height:20px;
+padding:2px 0px !important;
+}
+.jp-duration {
+color: #999 !important;
+float:right;
+font-size: 11px;
+z-index: 9999;
+margin-right:10px;
+height:20px;
+padding:2px 0px !important;
+}
+.jp-title-wrap {
+	display: block !important;
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	right: 25%;
+	text-align: center;
+	top: 14px;
+	overflow: hidden;
+	height: 15px !important;
+	list-style:none !important;
+	font-style:italic;
+}
+.jp-title {
+display: block !important;
+text-align: center;
+}
+.jp-title ul {
+	margin:0 !important;
+	padding:0 !important;
+}
+.jp-title ul li.scrollingtext {
+	padding:0 !important;
+	margin:0 !important;
+	font-size:12px !important;
+	background:none !important;
+}
+.jp-title ul li {
+color: #999 !important;
+background: none !important;
+padding: 0!important;
+margin: 0 !important;
+border: none !important;
+line-height: 14px !important;
+font-size: 12px !important;
+}
+
+.jp-controls-holder {
+width: 100%;
+height: 40px;
+float:left;
+clear:both;
+}
+ul.jp-controls {
+margin: 0px 0px 0px 0px !important;
+float: left !important;
+padding: 0 !important;
+height: 40px;
+width: 120px;
+overflow: hidden;
+}
+ul.jp-controls li {
+display: inline-block;
+text-indent: -9999em;
+width: 39px;
+float: left;
+height: 40px;
+border-right: 1px solid 
+#333;
+margin: 0px !important;
+padding: 0px !important;
+}
+ul.jp-controls li a.jp-previous {
+	background:transparent url(https://s3.amazonaws.com/s3audible/images/s3prev.png) no-repeat center center scroll;
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+}
+ul.jp-controls li a.jp-play {
+	background:transparent url(https://s3.amazonaws.com/s3audible/images/s3play.png) no-repeat center center scroll;
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+}
+ul.jp-controls li a.jp-pause {
+	background:transparent url(https://s3.amazonaws.com/s3audible/images/s3pause.png) no-repeat center center scroll;
+	width:40px;
+	height:40px;
+	display:none;
+	float:left;  
+}
+ul.jp-controls li a.jp-next {
+	background:transparent url(https://s3.amazonaws.com/s3audible/images/s3next.png) no-repeat center center scroll;
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+}
+ul.jp-toggles {
+text-indent: -9999em;
+margin: 0;
+padding: 0;
+height: 40px;
+width: 80px;
+float: right;
+overflow:hidden;
+}
+ul.jp-toggles li {
+	width:39px;
+	height:40px;
+	float:left;  
+	display:inline-block;
+	border-left: 1px solid 
+#333;
+}
+ul.jp-toggles li a.jp-shuffle, ul.jp-toggles li a.jp-shuffle-off {
+	background:transparent url(https://s3.amazonaws.com/s3audible/images/s3shuffle.png) no-repeat center center scroll;
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+}
+ul.jp-toggles li a.jp-repeat, ul.jp-toggles li a.jp-repeat-off {
+	background:transparent url(https://s3.amazonaws.com/s3audible/icons/wp_icon.png) no-repeat center center scroll;
+	width:40px;
+	height:40px;
+	display:block;
+	float:left;
+}
+.jp-playlist ul {
+	padding: 0px !important;
+	margin:0px !important;
+}
+.jp-playlist ul li {
+    background: none repeat scroll 0 0 transparent !important;
+    border-bottom: 1px solid #999999 !important;
+    display: inline-block !important;
+    height: 20px !important;
+    line-height: 16px !important;
+    list-style: none outside none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    text-shadow: none !important;
+    width: 100% !important;
+}
+.jp-playlist ul li:last-child {
+	border: none !important;
+}
+.jp-playlist ul li div {
+	float:left;
+	width:100% !important;
+}
+.jp-playlist ul li a {
+text-shadow: none !important;
+list-style: none !important;
+text-decoration: none !important;
+font-size: 12px !important;
+padding: 0px !important;
+display: block !important;
+float: left !important;
+width: auto !important;
+margin-left: 10px !important;
+}
+.jp-playlist ul li a.jp-playlist-current {
+	color: #D3A20F !important;
+	float:left;
+}
+.jp-link {
+float: right !important;
+margin-right: 10px !important;
+}
+.jp-video-play, .jp-playlist ul li a.jp-playlist-item-remove, .jp-full-screen {
+	display:none!important
+}
+
+.jp-artist {
+	color:#D3A20F !important;
+	font-size:10px !important;
+	padding:0px !important;
+	margin:0px !important;
+}

@@ -2,7 +2,7 @@
 /*
 Plugin Name: SO Audible Cloud Music Player
 Plugin URI: http://www.soaudible.com/
-Description: SO Audible Cloud Music Player. 
+Description: So Audible Cloud Music Player, sync your tracks share with friends upload, quick share embed, html5, ipad, iphone, android, play music anywhere long mixes, meetings, sermons, podcasts, radio. 
 Version: 0.9
 Author: Samuel East
 Author URI: http://www.soaudible.com/

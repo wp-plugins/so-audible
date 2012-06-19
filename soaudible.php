@@ -278,11 +278,15 @@ if (!class_exists("soaudible")) {
   <p><br /></p>  
   <br />
   <h3>If you would like to put this feed within your template please use the following code</h3>
-  <code>&lt;php $soaudible = new soaudible(); $soaudible->soaudible_player(array('autoplay' => 'false', 'album' => 'hello')); ?&gt;</code>
+  <code>&lt;?php $soaudible = new soaudible(); $soaudible->soaudible_player(array('autoplay' => 'false', 'album' => 'hello')); ?&gt;</code>
   <p>Put it in your sidebar.php or anywhere within your theme</p>
   <h3>If you would like to put this feed within a post or page use the following code.</h3>
   <code>[soaudible autoplay="true" album="enter-your-album"]</code>
-  <p>This plugin was developed by samueleast if you need any help please <a href="mailto:support@soaudible.com" target="_blank">contact me</a></p>
+  <p style="width:100%; height:15px; display:block; clear:both;"></p>
+ 
+  <iframe width="420" height="315" src="http://www.youtube.com/embed/QWwdNk16Og4" frameborder="0" allowfullscreen></iframe>
+   <p style="width:100%; height:15px; display:block; clear:both;"></p>
+  <p>This plugin was developed by soaudible if you need any help please <a href="mailto:support@soaudible.com" target="_blank">contact us</a></p>
   
 <?php	
        } 

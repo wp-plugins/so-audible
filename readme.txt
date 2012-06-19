@@ -12,7 +12,7 @@ so audible cloud music player, sync your tracks share with friends upload, quick
 
 == Installation ==
 
-[youtube http://www.youtube.com/watch?v=6o9WqGR2iXc]
+[youtube http://www.youtube.com/watch?v=QWwdNk16Og4]
 
 Upload the So Audible Music Player Plugin to your blog, Activate it, 
 

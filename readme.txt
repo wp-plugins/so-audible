@@ -12,6 +12,19 @@ So Audible Cloud Music Player, sync your tracks share with friends upload, quick
 
 [youtube http://www.youtube.com/watch?v=QWwdNk16Og4]
 
+You will need an soaudbile account to use this, sign up here. http://soaudible.com/
+
+Sign up enter your soaudible email and choose a bucket to loop through.
+
+<h3>If you would like to put this feed within your template please use the following code</h3>
+<code>&lt;?php $soaudible->soaudible_player(array('autoplay' => 'false',
+		'album' => 'enter-your-album',)); ?&gt;</code>
+
+<h3>If you would like to put this feed within a post or page use the following code.</h3>
+<code>[soaudible autoplay="true" album="enter-your-album"]</code>
+
+<h3>Or simple use the widget</h3>
+
 == Installation ==
 
 [youtube http://www.youtube.com/watch?v=QWwdNk16Og4]
@@ -22,7 +35,7 @@ Navigate to the menu.
 
 You will need an soaudbile account to use this, sign up here. http://soaudible.com/
 
-Sign up enter your s3audible email and choose a bucket to loop through.
+Sign up enter your soaudible email and choose a bucket to loop through.
 
 <h3>If you would like to put this feed within your template please use the following code</h3>
 <code>&lt;?php $soaudible->soaudible_player(array('autoplay' => 'false',

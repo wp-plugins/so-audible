@@ -1,4 +1,4 @@
- === So Sudible Music Player ===
+ === So Audible Music Player ===
 Contributors: Samuel East
 Tags: Cloud, Music Player, Mp3 Player, Audio Player, soaudbile, Radio
 Requires at least: 2.0

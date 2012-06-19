@@ -8,7 +8,9 @@ License: GPLv2
 
 == Description ==
 
-so audible cloud music player, sync your tracks share with friends upload, quick share embed, html5, ipad, iphone, android, play music anywhere long mixes, meetings, sermons, podcasts, radio. 
+So Audible Cloud Music Player, sync your tracks share with friends upload, quick share embed, html5, ipad, iphone, android, play music anywhere long mixes, meetings, sermons, podcasts, radio. 
+
+[youtube http://www.youtube.com/watch?v=QWwdNk16Og4]
 
 == Installation ==
 

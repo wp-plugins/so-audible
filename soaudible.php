@@ -55,7 +55,7 @@ if (!class_exists("soaudible")) {
 			$this->pluginPath = dirname(__FILE__);  
 	  
 			// Set Plugin URL  
-			$this->pluginUrl = WP_PLUGIN_URL . '/soaudible';
+			$this->pluginUrl = WP_PLUGIN_URL . '/so-audible';
 			
 			// Put our defaults in the "wp-options" table
 			add_option("s3-soaudible_username", $this->soaudible_username);
@@ -220,9 +220,9 @@ if (!class_exists("soaudible")) {
 
 <div class="wrap">
 
-  <h1><img src="<?php echo $this->pluginUrl; ?>/images/s3audiblelogo.png" width="86" height="55" alt="soaudible"/> soaudible Cloud Music Player</h1>  
+  <h1><img src="<?php echo $this->pluginUrl; ?>/images/s3audiblelogo.png" width="86" height="55" alt="soaudible"/> Soaudible Cloud Music Player</h1>  
   
-  <h2>Please sign up for an account at soaudible you will need to use the email and username you signed up with <a href="http://soaudible.com/" target="_blank">http://soaudible.com/</a></h2>
+  <h2>Please sign up for an account at soaudible you will need to use the email and username you signed up with <a href="http://soaudible.com/wp-login.php?action=register" target="_blank">http://soaudible.com/</a></h2>
   
   <form action="" method="post" id="isd-config">
     <table class="form-table">
@@ -278,19 +278,15 @@ if (!class_exists("soaudible")) {
   <p><br /></p>  
   <br />
   <h3>If you would like to put this feed within your template please use the following code</h3>
-  <code>&lt;?php $soaudible = new soaudible(); $soaudible->soaudible_player(array('autoplay' => 'false',
-		'bucket' => 'enter-your-bucket','folder' => '')); ?&gt;</code>
+  <code>&lt;php $soaudible = new soaudible(); $soaudible->soaudible_player(array('autoplay' => 'false', 'album' => 'hello')); ?&gt;</code>
   <p>Put it in your sidebar.php or anywhere within your theme</p>
   <h3>If you would like to put this feed within a post or page use the following code.</h3>
-  <code>[soaudible autoplay="true" bucket="enter-your-bucket"]</code>
-  <h3>You can also just get contents from a folder with the following.</h3>
-  <code>[soaudible autoplay="true" bucket="enter-your-bucket" folder="enter-your-bucket-folder"]</code>
+  <code>[soaudible autoplay="true" album="enter-your-album"]</code>
   <p>This plugin was developed by samueleast if you need any help please <a href="mailto:support@soaudible.com" target="_blank">contact me</a></p>
   
 <?php	
        } 
-	   
-	   
+	  
 	   function soaudible_player($atts){ 
 	   
             // get option from database

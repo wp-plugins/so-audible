@@ -14,8 +14,6 @@ So Audible Cloud Music Player, sync your tracks share with friends upload, quick
 
 You will need an soaudbile account to use this, sign up here. http://soaudible.com/
 
-Sign up enter your soaudible email and choose a bucket to loop through.
-
 <h3>If you would like to put this feed within your template please use the following code</h3>
 <code>&lt;?php $soaudible->soaudible_player(array('autoplay' => 'false',
 		'album' => 'enter-your-album',)); ?&gt;</code>
@@ -34,8 +32,6 @@ Upload the So Audible Music Player Plugin to your blog, Activate it,
 Navigate to the menu.
 
 You will need an soaudbile account to use this, sign up here. http://soaudible.com/
-
-Sign up enter your soaudible email and choose a bucket to loop through.
 
 <h3>If you would like to put this feed within your template please use the following code</h3>
 <code>&lt;?php $soaudible->soaudible_player(array('autoplay' => 'false',

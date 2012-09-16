@@ -72,7 +72,7 @@ if (!class_exists("soaudible")) {
 			
 			add_action('admin_menu', array( $this, 'soaudible_admin_menu' ));
 			add_action( 'wp_head', array( $this, 'soaudible_css' ) );
-			add_action( 'init', array( $this, 'include_jquery' ) );
+			add_action( 'wp_enqueue_scripts', array( $this, 'include_jquery' ) );
 			add_action( 'wp_footer', array( $this, 'soaudible_javascript' ) );
 			add_action( 'admin_head', array( $this, 'soaudible_css_admin' ) );
 			add_action( 'admin_footer', array( $this, 'soaudible_javascript_admin' ) );
@@ -127,7 +127,7 @@ if (!class_exists("soaudible")) {
 			echo '<script type="text/javascript" src="'.$this->pluginUrl.'/js/layout.js"></script>';
  
 			?><script type="text/javascript">
-				jQuery(document).ready(function ($) {
+			    (function($){
 					$("#colour").ColorPicker({
 						onSubmit: function (hsb, hex, rgb, el) {
 							$(el).val(hex);
@@ -157,7 +157,7 @@ if (!class_exists("soaudible")) {
 				
 				
 				
-				});</script>
+				})(jQuery);</script>
 
 			<?php
 			
